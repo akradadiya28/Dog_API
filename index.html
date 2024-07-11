@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>API</title>
+    <!-- icon css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <a href="index.html">
+                <h3>
+                    <i class="fa-solid fa-dog"></i>
+                    <span>Dog API</span>
+                </h3>
+            </a>
+        </div>
+        <div class="user d-flex">
+            <div class="user-image pos-relative">
+                <img src="images/user.jpg" alt="user" />
+                <div class="active"></div>
+            </div>
+            <div class="user-name">
+                <h6>Arpit Radadiya</h6>
+                <span>Admin</span>
+            </div>
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul id="itemList">
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- main -->
+    <main>
+        <!-- main-area -->
+        <div class="main-area">
+            <!-- header -->
+            <header>
+                <div class="header-main d-flex items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="w-4 d-flex">
+                                <div class="hamburgar-menu d-flex items-center" id="menubar">
+                                    <a href="javascript:void(0)" class="d-flex items-center justify-center">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </div>
+                                <div class="search d-flex items-center">
+                                    <form action="#">
+                                        <input type="text" placeholder="Search" class="form-control" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="w-1"></div>
+                            <div class="w-7">
+                                <div class="navbar activeness">
+                                    <ul class="d-flex items-center" id="jend">
+                                        <li class="item-list">
+                                            <a href="javascript:void(0)" class="dropdown pos-relative act2">
+                                                <i class="fa fa-envelope d-flex items-center justify-center"></i>
+                                                <span>Message</span>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            <div
+                                                                class="user user-image pos-relative d-flex justify-center items-center">
+                                                                <img src="images/user.jpg" alt="user" />
+                                                                <div class="msg">
+                                                                    <h6>AK send you a message</h6>
+                                                                    <small>15 minutes ago</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            <div
+                                                                class="user user-image pos-relative d-flex justify-center items-center">
+                                                                <img src="images/user.jpg" alt="user" />
+                                                                <div class="msg">
+                                                                    <h6>AK send you a message</h6>
+                                                                    <small>15 minutes ago</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            <div
+                                                                class="user user-image pos-relative d-flex justify-center items-center">
+                                                                <img src="images/user.jpg" alt="user" />
+                                                                <div class="msg">
+                                                                    <h6>AK send you a message</h6>
+                                                                    <small>15 minutes ago</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item text-center">
+                                                            See all messages
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="item-list">
+                                            <a href="javascript:void(0)" class="dropdown pos-relative act2">
+                                                <i class="fa fa-bell d-flex items-center justify-center"></i>
+                                                <span>Notification</span>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            <div class="msg">
+                                                                <h6>Profile updated</h6>
+                                                                <small>15 minutes ago</small>
+                                                            </div>
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            <div class="msg">
+                                                                <h6>New user added</h6>
+                                                                <small>15 minutes ago</small>
+                                                            </div>
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            <div class="msg">
+                                                                <h6>Password changed</h6>
+                                                                <small>15 minutes ago</small>
+                                                            </div>
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item text-center">
+                                                            See all notifications
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="item-list">
+                                            <a href="javascript:void(0)" class="dropdown pos-relative act2">
+                                                <div class="user d-flex items-center">
+                                                    <div class="user-image pos-relative d-flex items-center">
+                                                        <img src="images/user.jpg" alt="user" />
+                                                    </div>
+                                                    <span>Arpit Radadiya</span>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            My Profile
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            Settings
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" class="dropdown-item">
+                                                            Log Out
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- js -->
+            <script src="js/script.js"></script>
+            <!-- jquery -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.js"></script>
+</body>
+
+</html>
